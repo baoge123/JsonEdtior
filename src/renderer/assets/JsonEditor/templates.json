@@ -1,0 +1,152 @@
+[
+  {
+    "text": "数据分类表",
+    "title": "Insert a dataClassifyList Node",
+    "className": "dataClassifyList",
+    "field": "dataClassifyList",
+    "value": [
+      {
+        "dataClassifyID": "",
+        "dataClassifyName": "",
+        "attrList": [],
+        "enumList": []
+      }
+    ]
+  },
+  {
+    "text": "参数分组表",
+    "title": "Insert a paramGroupTypeList Node",
+    "field": "paramGroupTypeList",
+    "value": [
+      {
+        "paramGroupType": "",
+        "paramGroupName": "",
+        "paramGroup": [],
+        "relationshipGroup": [],
+        "availableTimesRules": [],
+        "multiParamRules": []
+      }
+    ]
+  },
+  {
+    "text": "属性",
+    "title": "Insert a attrList Node",
+    "className": "attrList",
+    "field": "attrList",
+    "value": {
+      "id": "",
+      "desc": "",
+      "dataType": "",
+      "displayFormat": ""
+    }
+  },
+  {
+    "text": "枚举",
+    "title": "Insert a enumList Node",
+    "className": "enumList",
+    "field": "enumList",
+    "value": {
+      "name": "",
+      "desc": "",
+      "enum": [
+        {
+          "value": 0,
+          "desc": ""
+        },
+        {
+          "value": 1,
+          "desc": ""
+        },
+        {
+          "value": 2,
+          "desc": ""
+        }
+      ]
+    }
+  },
+  {
+    "text": "参数分组",
+    "title": "Insert a paramGroup Node",
+    "className": "paramGroup",
+    "field": "paramGroup",
+    "value": {
+      "paramGroupID": "",
+      "paramGroupName": "",
+      "relationShips": [{ "relationshipID": "" }],
+      "multiParamRules": [{ "multiParamRuleID": "" }],
+      "params": [
+        {
+          "paramID": "",
+          "paramName": "",
+          "paramType": "",
+          "attrID": "",
+          "value": 0,
+          "keyParam": false
+        }
+      ]
+    }
+  },
+  {
+    "text": "关系分组",
+    "title": "Insert a relationshipGroup Node",
+    "className": "relationshipGroup",
+    "field": "relationshipGroup",
+    "value": {
+      "relationshipID": "",
+      "relationshipName": "",
+      "relationshipType": "",
+      "paramGroupID": "",
+      "params": [
+        {
+          "paramID": "",
+          "paramList": {
+            "paramValue": "",
+            "params": [
+              {
+                "paramID": "",
+                "paramType": ""
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "text": "使能次数",
+    "title": "Insert a availableTimesRules Node",
+    "className": "availableTimesRules",
+    "field": "availableTimesRules",
+    "value": {
+      "availableTimesRuleID": "",
+      "availableTimesRuleName": "",
+      "params": [
+        {
+          "paramID": "",
+          "paramGroupIDs": [{ "paramGroupID": "" }, { "paramGroupID": "" }],
+          "availableTimes": 1
+        }
+      ]
+    }
+  },
+  {
+    "text": "验证规则",
+    "title": "Insert a multiParamRules Node",
+    "className": "multiParamRules",
+    "field": "multiParamRules",
+    "value": {
+      "multiParamRuleID": "",
+      "multiParamRuleName": "",
+      "checkJarFile": "",
+      "paramGroupID": "",
+      "relatedParamIDs": [
+        {
+          "paramID": ""
+        },
+        {
+          "paramID": ""
+        }
+      ]
+    }
+  }
+]

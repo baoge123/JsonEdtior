@@ -1,10 +1,10 @@
 <template>
   <el-container class="window-box">
-    <!--左边容器 -->
+    <!--左边容器11111 -->
     <el-aside class="aside">
       <json-editor-page ref="jsonEditor" :jsonChange="jsonChange"></json-editor-page>
     </el-aside>
-    <!-- 右边容器 -->
+    <!-- 右边容器111 -->
     <el-container>
       <div class="resize-container"></div>
       <el-main class="main">

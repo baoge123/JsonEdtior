@@ -9,7 +9,7 @@
       <div class="resize-container"></div>
       <el-main class="main">
         <el-header style="text-align: right;">
-          <el-tooltip class="item" effect="dark" content="哈哈哈" placement="bottom">
+          <el-tooltip class="item" effect="dark" content="打开" placement="bottom">
             <el-button type="info" icon="el-icon-folder-opened" circle @click="openFile"></el-button>
           </el-tooltip>
           <el-tooltip class="item" effect="dark" content="保存" placement="bottom">
